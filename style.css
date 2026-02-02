@@ -16,18 +16,20 @@ body {
 .header .header--title {
   margin-block-start: 2em;
   font-size: 25px;
-  font-weight: 200;
+  font-weight: lighter;
   color: hsl(234, 12%, 34%);
+  opacity: 0.6;
 }
 .header .header--second-title {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   color: hsl(233, 7%, 25%);
+  font-weight: bolder;
 }
 .header .header--text {
   max-width: 500px;
   margin: 10px auto 20px;
-  color: hsl(229, 6%, 66%);
+  color: hsl(229, 8%, 57%);
   font-size: 14px;
   padding: 0 3em;
   font-weight: 400;
@@ -60,7 +62,7 @@ main .container .container__box .container--title {
 }
 main .container .container__box .container--text {
   font-size: 14px;
-  color: hsl(229, 6%, 66%);
+  color: hsl(227, 8%, 55%);
   padding: 0 0 2em;
 }
 main .container .container__box svg {
